@@ -94,15 +94,15 @@ print(all_words)
 print(all_words[0])
 
 # create a text input that asks for choice of food
-foodchoice = input("what is your choice of food?")
+#foodchoice = input("what is your choice of food?")
 #create an empty list variable called food
-food = []
+#food = []
 # add 3 items from the user into the empty list
-food.append(foodchoice)
-food.append(foodchoice)
-food.append(foodchoice)
+#food.append(foodchoice)
+#food.append(foodchoice)
+#food.append(foodchoice)
 #print out the menu list
-print(food)
+#print(food)
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
@@ -111,10 +111,11 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+#print(coordinates[1])
 # lets make this a multidimensional array
 coordindates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
-
+print(coordindates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
 # get the second item in the tuple1 above
